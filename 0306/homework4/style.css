@@ -1,0 +1,36 @@
+header {
+  background-color:	#aaaaff;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 28%;
+  height: 400px; 
+  background:#dab1d5;
+  padding: 20px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 66.5%;
+  background-color: #f1f1f1;
+  height: 400px;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
